@@ -34,6 +34,7 @@ h2 {
     max-width: 50rem;
     font-weight: 600;
     margin-top: 1rem;
+    color: var(--text-axis-y);
 }
 
 h3 {
@@ -73,6 +74,22 @@ a:focus, a:hover {
 @media screen and (max-width: 580px) {
     #observablehq-chart_1-bd757394 {
         height: 600px !important;
+    }
+
+    body {
+        padding: 1em;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    .legend {
+        flex-direction: column;
     }
 }
 
@@ -124,5 +141,5 @@ form label:hover, form label:focus {
 }
 
 footer {
-    padding-top: 4em;
+    padding-top: 3em;
 }
