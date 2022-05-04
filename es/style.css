@@ -1,0 +1,117 @@
+:root {
+    --interactivity: #86DED8;
+}
+
+body {
+    font-size: 16px;
+    padding: 1.5em 6.5em;
+    background-color: var(--background-color);
+    color: var(--text);
+    font-family: var(--font-chart);
+}
+
+h1 {
+    font-family: var(--font-title);
+    font-size: 2.9em;
+    font-weight: 400;
+    max-width: 50rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5em;
+    max-width: 50rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+h3 {
+    font-family: var(--font-title);
+    max-width: 50rem;
+    font-size: 1.75em;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+h3 span {
+    font-weight: 700;
+}
+
+p {
+    max-width: 50rem;
+    line-height: 1.4em;
+}
+
+a {
+    color: var(--interactivity);
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    text-decoration: underline;
+}
+
+.hide {
+    display: none;
+}
+
+#observablehq-chart_1-bd757394 {
+    width: 100%
+}
+
+@media screen and (max-width: 580px) {
+    #observablehq-chart_1-bd757394 {
+        height: 600px !important;
+    }
+}
+
+.legend {
+    display: flex;
+    width: 100%;
+}
+
+.legend p {
+    color: var(--text-axis-y);
+    margin-right: 2em;
+    margin-top: 0;
+    margin-bottom: 0.5em
+}
+
+.male {
+    color: #996CF8;
+}
+
+.female {
+    color: #FD7A4E;
+}
+
+.mixed {
+    color: #D4E9DF;
+}
+
+.num {
+    font-weight: 600;
+}
+
+form label {
+    color: var(--text-axis-y);
+}
+
+form input,
+form div label, 
+.oi-ec050e-toggle label {
+    color: var(--interactivity);
+    accent-color: var(--interactivity);
+}
+
+form label:hover, form label:focus {
+    text-decoration: underline;
+}
+
+.oi-ec050e-checkbox>label:hover {
+    text-decoration: none;
+}
+
+footer {
+    padding-top: 4em;
+}
