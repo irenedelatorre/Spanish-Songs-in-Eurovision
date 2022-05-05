@@ -67,14 +67,14 @@ a:focus, a:hover {
     display: none;
 }
 
-#observablehq-chart_1-bd757394 {
+/* #observablehq-chart_1-bd757394 {
     width: 100%
-}
+} */
 
-@media screen and (max-width: 580px) {
-    #observablehq-chart_1-bd757394 {
+@media (max-width: 800px) {
+    /* #observablehq-chart_1-bd757394 {
         height: 600px !important;
-    }
+    } */
 
     body {
         padding: 1em;
@@ -143,3 +143,4 @@ form label:hover, form label:focus {
 footer {
     padding-top: 3em;
 }
+
